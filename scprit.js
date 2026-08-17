@@ -1,9 +1,9 @@
 const botoes = document.querySelectorAll("button");
 
-            botoes.forEach( function(botao) {
+            botoes.forEach( function (botao) {
                let curtiu = false;
                  botao.addEventListener("click", botaoClicado);
-                 function botaoClicado(){
+                 function botaoClicado() {
                       console.log("Fui clicado");
                       let texto = botao.querySelector("span");
                       if(curtiu === false){
